@@ -1,5 +1,5 @@
 # Vsftpd
-![logoNginx](https://github.com/anasalasro/Nginx/blob/main/tareaNginx/nginx.png)
+![logoVsftpd](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/unnamed.png)
 ## Descripción
 
 En este proyecto configuraremos un servidor FTP con VSFTPD.
