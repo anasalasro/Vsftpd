@@ -14,9 +14,9 @@ En este proyecto configuraremos un servidor FTP con VSFTPD.
 
 ## Referencias
 
-- [Nginx](https://www.internetlab.es/post/777/vsftpd-un-servidor-ftp-alternativo/)  
-- [¿Qué es nginx?](https://www.hostinger.es/tutoriales/que-es-nginx/)
-- [Comandos principales](https://es.linux-console.net/?p=25)
+- [internetlab](https://www.internetlab.es/post/777/vsftpd-un-servidor-ftp-alternativo/)  
+- [redeszone](https://www.redeszone.net/tutoriales/servidores/mejores-servidores-ftp-ftpes-linux/)
+- [clouding](https://clouding.io/hc/es/articles/360011506019-Configurar-vsFTPd-en-GNU-Linux)
 
 
 ## Licencia
