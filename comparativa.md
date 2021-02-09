@@ -1,6 +1,17 @@
 # VSFTPD vs PROFTPD
 
 ## VSFTPD
+Sus principales características son:
+
+  - Dispone de configuraciones de IP virtual
+  - Puedes crear usuarios virtuales
+  - Puede funcionar en modo operación independiente o inetd.
+  - Las opciones de configuración por parte del usuario son muy avanzadas.
+  - Dispone de un acelerador de ancho de banda para que funcionen las cargas y descargas aún mejor.
+  - Puedes establecer límites por IP.
+  - Es compatible con IPv6.
+  - Tiene soporte de cifrado a través de la integración con SSL.
+Si estás buscando un servidor FTP que sea seguro y estable, tienes que probar Vsftpd, junto con Proftpd son los dos mejores servidores FTP que puedes encontrar actualmente.
 
 ## PROFTPD
 Las características principales que tiene actualmente Proftpd son:
