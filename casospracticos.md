@@ -1,4 +1,4 @@
-#CASOS PRACTICOS
+# CASOS PRACTICOS
 
 ## 1. - Version vsftpd instalada
 
@@ -47,4 +47,23 @@
 ## 8. - Comprobamos que podemos acceder desde Filezilla en el cliente
  
    ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/acceso1.png)
+   
+## 9. - Modificamos el fichero de configuración para que anonymous tenga permiso de lectura en su directorio
+
+ ` /etc/vsftpd.conf `
+ 
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/configuracion1.png)
+   
+ - Creamos un archivo en el directorio de trabajo de anonymous para podernoslo descargar
+ 
+ `touch /srv/ftp/pruebaanonymous.txt`
+
+ `systemctl restart vsftpd.service`
+
+## 6. - Accedemos a FileZilla como anonymous y comprobamos
+
+ ` /etc/vsftpd.conf `
+ 
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/configuracion1.png)
+      
 
