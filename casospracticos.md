@@ -45,8 +45,6 @@
 ` chmod a-w /home/ana `
 
 ## 8. - Comprobamos que podemos acceder desde Filezilla en el cliente
-
- ` /etc/vsftpd.conf `
  
    ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/acceso1.png)
 
