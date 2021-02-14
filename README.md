@@ -9,7 +9,7 @@ En este proyecto configuraremos un servidor FTP con VSFTPD.
 1. [ Introducción ](https://github.com/anasalasro/Vsftpd/blob/main/introduccion.md)  
 2. [ Comparativa con proftpd ](https://github.com/anasalasro/Vsftpd/blob/main/comparativa.md)  
 3. [ Esquema de red ](https://github.com/anasalasro/Vsftpd/blob/main/esquemared.md)  
-4. [ Instalación ](https://github.com/anasalasro/Nginx/blob/main/instalacion.md)
+4. [ Instalación ](https://github.com/anasalasro/Vsftpd/blob/main/Instalacion.md)
 5. [ Casos prácticos ](https://github.com/anasalasro/Nginx/blob/main/casospracticos.md)
 
 ## Referencias
