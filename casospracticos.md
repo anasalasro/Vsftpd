@@ -68,7 +68,7 @@
  
      ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/anonymousnodejasubir.png)
 
-## 6. - Le damos a anónimo permiso de escritura en el directorio sugerencias, que es un subdirectorio de su directorio raíz.
+## 10. - Le damos a anónimo permiso de escritura en el directorio sugerencias, que es un subdirectorio de su directorio raíz.
 
   - Cambiamos l propietario de /ftp, añadimos el subdirectorio de sugerecncias, le cambiamos el propietario y le quitamos los permisos de escritura
  
@@ -79,3 +79,20 @@
    ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/permisoescriturasugerencias.png)      
   - Comprobamos que nos deja descargar el archivo welcome del host pero no nos deja subir el archivo prueba1 desde anonymous
    ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/nosdejabajarwelcomeperonosubirprueba1.png) 
+   
+  ## 11. - Creación de usuarios virtuales
+  -Instalamos
+  
+ ` apt install libpam-pwdfile `
+ 
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/anonymousactivo.png)
+   
+   -Modificamos 
+   
+   ` /etc/vsftpd.conf `
+   
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/configuracionusuariosvirtuales.png)
+   
+   -Creamos el directorio vsftpd y generemos el archivo ftpd.passwd 
+   
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/creamosusuario1ysucarpeta.png)
