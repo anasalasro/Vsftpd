@@ -91,7 +91,7 @@
    
    ` /etc/vsftpd.conf `
    
-   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/configuracionusuariosvirtuales.png)
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/configuracionusuariosvirtuales2.png)
    
    -Creamos el directorio vsftpd y generemos el archivo ftpd.passwd 
    
