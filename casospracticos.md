@@ -77,5 +77,5 @@
   - Modificamos ` /etc/vsftpd.conf `
   
    ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/permisoescriturasugerencias.png)      
-
-   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/modificarescriturasugerencias.png) 
+  - Comprobamos que nos deja descargar el archivo welcome del host pero no nos deja subir el archivo prueba1 desde anonymous
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/nosdejabajarwelcomeperonosubirprueba1.png) 
