@@ -96,3 +96,7 @@
    -Creamos el directorio vsftpd y generemos el archivo ftpd.passwd 
    
    ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/creamosusuario1ysucarpeta.png)
+   
+   -Buscamos el archivo /etc/pam.d y lo configuramos 
+   
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/etcpamdvsftpd.png)
