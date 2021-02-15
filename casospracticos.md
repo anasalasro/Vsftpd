@@ -44,6 +44,10 @@
 
 ` chmod a-w /home/ana `
 
+  - Añadimos nuestro usuario al fichero /etc/vsftpd.chroot_list
+  
+` ana:x:1002:127:ana:/home/ana:/bin/sh `
+
 ## 8. - Comprobamos que podemos acceder desde Filezilla en el cliente
  
    ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/acceso1.png)
@@ -52,18 +56,26 @@
 
  ` /etc/vsftpd.conf `
  
-   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/configuracion1.png)
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/anonymousactivo.png)
    
- - Creamos un archivo en el directorio de trabajo de anonymous para podernoslo descargar
- 
- `touch /srv/ftp/pruebaanonymous.txt`
-
  `systemctl restart vsftpd.service`
-
-## 6. - Accedemos a FileZilla como anonymous y comprobamos
-
- ` /etc/vsftpd.conf `
  
-   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/configuracion1.png)
-      
+ - Comprobamos que tenemos acceso y probamos que nos deja descargar
+ 
+     ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/acessoanonymous.png)
+  
+ - comprobamos que no podemos subir nada
+ 
+     ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/anonymousnodejasubir.png)
 
+## 6. - Le damos a anónimo permiso de escritura en el directorio sugerencias, que es un subdirectorio de su directorio raíz.
+
+  - Cambiamos l propietario de /ftp, añadimos el subdirectorio de sugerecncias, le cambiamos el propietario y le quitamos los permisos de escritura
+ 
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/sugerenciasypermisos.png)
+  
+  - Modificamos ` /etc/vsftpd.conf `
+  
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/permisoescriturasugerencias.png)      
+
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/modificarescriturasugerencias.png) 
