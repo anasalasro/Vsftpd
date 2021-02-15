@@ -100,3 +100,32 @@
    -Buscamos el archivo /etc/pam.d y lo configuramos 
    
    ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/etcpamdvsftpd.png)
+
+   -Creamos el usuario virtual
+   
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/crearusuariovirtual.png)
+   
+   -Creamos el directorio para el usuario virtual
+   
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/creamosdirectorioparausuario1.png)
+   
+   -Comprobamos
+   
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/comprobacionusuariovirtual.png)
+   
+ ## 12. - Acceso seguro FTP
+  - Instalamos
+  
+ ` apt install openssl `
+ 
+  - Generamos la clave
+  
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/generarclaveSSL.png)
+
+ - Modificamos en /etc/vsftpd.conf
+  
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/configuracionSSL.png)
+   
+  - Comprobamos
+   ![](https://github.com/anasalasro/Vsftpd/blob/main/Vsftpd/comprobarSSL.png)
+  
