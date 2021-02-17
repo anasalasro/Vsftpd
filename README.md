@@ -14,9 +14,9 @@ En este proyecto configuraremos un servidor FTP con VSFTPD.
 
 ## Referencias
 
-- [internetlab](https://www.internetlab.es/post/777/vsftpd-un-servidor-ftp-alternativo/)  
-- [redeszone](https://www.redeszone.net/tutoriales/servidores/mejores-servidores-ftp-ftpes-linux/)
-- [clouding](https://clouding.io/hc/es/articles/360011506019-Configurar-vsFTPd-en-GNU-Linux)
+- [ahierro](https://blog.ahierro.es/usuarios-virtuales-en-vsftp/)  
+- [redeszone](https://www.redeszone.net/tutoriales/servidores/vsftpd-configuracion-servidor-ftp/)
+- [Ususarios Virtuales](https://blog.guillen.io/2016/08/29/ftp-con-usuarios-virtuales/)
 
 
 ## Licencia
